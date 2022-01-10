@@ -1,0 +1,30 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "ecoach.e_test_mobile_app"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            debuggable true
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:20.0.+'
+    compile 'com.android.support:appcompat-v7:20.0.+'
+    compile files('libs/achartengine-1.2.0.jar')
+    compile files('libs/guice-2.0-no_aop.jar')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/json-simple-1.1.1.jar')
+}

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSccience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="Science"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F7921E"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:id="@+id/tvYr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:text="WASSCE 1993"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#7F7F7F" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:src="@drawable/line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvResults"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Review"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#666666" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp">
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:src="@drawable/line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/optionone"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:text="1"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/optiontwo"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:text="2"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/optionthree"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:text="3"
+                android:textSize="35dp" />
+
+            <Button
+                android:id="@+id/optionfour"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:text="4"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:text="5"
+                android:textSize="35dp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="5dp"
+                android:text="6"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="20dp"
+                android:text="7"
+                android:textSize="35dp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="8"
+                android:textSize="35dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profpic" />
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:text="Name :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_below="@+id/tvname"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@+id/imageView"
+
+            android:text="Gender :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/tvGender"
+            android:text="Username"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvGenderOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvUsername"
+            android:layout_alignStart="@+id/tvUsername"
+            android:layout_alignTop="@+id/tvGender"
+            android:layout_marginTop="2dp"
+            android:text="Male / Female"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvUname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_toLeftOf="@+id/tvDigits"
+            android:text="Telephone :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvDigits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tvUsername"
+            android:layout_alignRight="@+id/tvUsername"
+            android:layout_alignTop="@+id/tvUname"
+            android:text="+23326683880"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvUname"
+            android:layout_alignStart="@+id/tvUname"
+            android:layout_below="@+id/tvUname"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:text="School :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvNameSchool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvDigits"
+            android:layout_alignStart="@+id/tvDigits"
+            android:layout_alignTop="@+id/tvCode"
+            android:text="PRESEC-LEGON"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvseeyousoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvUname"
+            android:layout_alignStart="@+id/tvUname"
+            android:layout_below="@+id/tvCode"
+            android:layout_marginTop="10dp"
+            android:text="Residence :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvproducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvNameSchool"
+            android:layout_alignStart="@+id/tvNameSchool"
+            android:layout_alignTop="@+id/tvseeyousoon"
+            android:text="Ashongman"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvseeyousoon"
+            android:layout_alignStart="@+id/tvseeyousoon"
+            android:layout_below="@+id/tvseeyousoon"
+            android:layout_marginTop="10dp"
+            android:text="Country :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvNationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvproducts"
+            android:layout_alignStart="@+id/tvproducts"
+            android:layout_alignTop="@+id/tvCountry"
+            android:text="Ghana"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvCountry"
+            android:layout_alignStart="@+id/tvCountry"
+            android:layout_below="@+id/tvCountry"
+            android:layout_marginTop="10dp"
+            android:text="Level :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvNationality"
+            android:layout_alignStart="@+id/tvNationality"
+            android:layout_alignTop="@+id/textView4"
+            android:text="Senior High School"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:text="Date Of Birth :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvLevel"
+            android:layout_alignStart="@+id/tvLevel"
+            android:layout_alignTop="@+id/tvDOB"
+            android:text="March 18, 1989"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btneidtprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDOB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/editprofile"
+            android:text="Edit Profile"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="430dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tvCode"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/tvCode"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="330dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/helpbtn"
+                android:text="Help"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/tvCode"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/tvCode"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/helpbtn"
+                android:text="Logout"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

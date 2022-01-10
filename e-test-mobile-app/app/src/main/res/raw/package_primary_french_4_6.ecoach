@@ -1,0 +1,1051 @@
+{
+  "name": "PRIMARY FRENCH (GRADES 4-6)",
+  "course_id": "74",
+  "courseID": "01PU11",
+  "package_code": "PRIMARY",
+  "description": "",
+  "category": "",
+  "author": "content@ecoachsolutions.com",
+  "topics": [
+    "Les Articles",
+    "Les jours de semaine",
+    "pronoms",
+    "verbes",
+    "noms",
+    "Les Adjectifs Possessifs"
+  ],
+  "topicbanks": [
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Adjectifs Possessifs",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59267",
+        "59268",
+        "59269",
+        "59270",
+        "59271",
+        "59272",
+        "59273",
+        "59274",
+        "59275",
+        "59276"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "quizzes": [
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Articles",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59247",
+        "59248",
+        "59249",
+        "59250",
+        "59252",
+        "59253",
+        "59254",
+        "59255",
+        "59257",
+        "59258"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "Les Adjectifs Possessifs",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "59267",
+        "59268",
+        "59269",
+        "59270",
+        "59271",
+        "59272",
+        "59273",
+        "59274",
+        "59275",
+        "59276"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "questions": [
+    {
+      "qid": "59247",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>............................ Pomme</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:50:11",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255335",
+          "text": "<p>Des</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255336",
+          "text": "<p>Un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255337",
+          "text": "<p>Une</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255338",
+          "text": "<p>Les</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59248",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>........................... Cheval</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:51:18",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255340",
+          "text": "<p>Un</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255341",
+          "text": "<p>Une</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255342",
+          "text": "<p>Des</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255343",
+          "text": "<p>Les</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59249",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>........................... livres</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:52:55",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255345",
+          "text": "<p>Une</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255346",
+          "text": "<p>Un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255347",
+          "text": "<p>La</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255348",
+          "text": "<p>Des</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59250",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>.............................. homme</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:53:30",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255350",
+          "text": "<p>Le&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255351",
+          "text": "<p>L'</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255352",
+          "text": "<p>La</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255353",
+          "text": "<p>Les</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59252",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>........................ fille</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:54:19",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255360",
+          "text": "<p>Une</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255361",
+          "text": "<p>Le</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255362",
+          "text": "<p>Les</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255363",
+          "text": "<p>L'</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59253",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>.................... Toilettes</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:55:27",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255365",
+          "text": "<p>Une&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255366",
+          "text": "<p>Un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255367",
+          "text": "<p>Le</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255368",
+          "text": "<p>Les</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59254",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>..................................... musique</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:56:11",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255370",
+          "text": "<p>La</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255371",
+          "text": "<p>Le</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255372",
+          "text": "<p>Un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255373",
+          "text": "<p>Des</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255374",
+          "text": "<p>*Answer Text</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59255",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>........................ avion</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:56:57",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255375",
+          "text": "<p>le</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255376",
+          "text": "<p>une</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255377",
+          "text": "<p>l'</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255378",
+          "text": "<p>les</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59257",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>.......................... gomme</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:58:03",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255385",
+          "text": "<p>un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255386",
+          "text": "<p>le</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255387",
+          "text": "<p>des</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255388",
+          "text": "<p>une</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59258",
+      "topic": "1279",
+      "instructions": "",
+      "text": "<p>............................... chaussettes</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 17:58:52",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255390",
+          "text": "<p>un</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255391",
+          "text": "<p>une</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255392",
+          "text": "<p>des</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255393",
+          "text": "<p>le</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59267",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Le sac est pour moi. C'est ....................... Sac</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:07:39",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255435",
+          "text": "<p>Son</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255436",
+          "text": "<p>Mon</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255437",
+          "text": "<p>Ton</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255438",
+          "text": "<p>Sa</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59268",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Voila! C'est la maison de John. C'est ......................... maison</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:08:46",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255440",
+          "text": "<p>Mon</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255441",
+          "text": "<p>Ma</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255442",
+          "text": "<p>Ton</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255443",
+          "text": "<p>Sa</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59269",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Je prends ................................ livres</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:09:52",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255445",
+          "text": "<p>Mon</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255446",
+          "text": "<p>Ma</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255447",
+          "text": "<p>Tes</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255448",
+          "text": "<p>Ta</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59270",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>....................... ami est Caleb</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:10:49",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255450",
+          "text": "<p>Notre</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255451",
+          "text": "<p>Ta</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255452",
+          "text": "<p>Ma</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255453",
+          "text": "<p>Ses</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59271",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Ces chaises appartiennent&nbsp;<span>&agrave; Jane et Mary. Ce sont ........................... chaises</span></p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:12:00",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255455",
+          "text": "<p>Mes</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255456",
+          "text": "<p>Ses</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255457",
+          "text": "<p>Tes</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255458",
+          "text": "<p>Leurs</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59272",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>..................... cahier est rouge</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:13:05",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255460",
+          "text": "<p>Ta</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255461",
+          "text": "<p>Leurs</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255462",
+          "text": "<p>Mon</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255463",
+          "text": "<p>Tes</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59273",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>J'aime .................... amie</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:13:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255465",
+          "text": "<p>Ma&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255466",
+          "text": "<p>Mon</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255467",
+          "text": "<p>Mes</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255468",
+          "text": "<p>Sa</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59274",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Il achete ...................... v<span>&eacute;lo</span></p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:14:39",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255470",
+          "text": "<p>Leur</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255471",
+          "text": "<p>Ta</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255472",
+          "text": "<p>Mes</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255473",
+          "text": "<p>Sa</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59275",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Vous avez ............................. robes</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:15:38",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255475",
+          "text": "<p>Ta</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255476",
+          "text": "<p>Vos</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255477",
+          "text": "<p>Votre</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255478",
+          "text": "<p>Mes</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "59276",
+      "topic": "1281",
+      "instructions": "",
+      "text": "<p>Janet et moi appellons ......................parents</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-14 18:16:28",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "255480",
+          "text": "<p>Leur</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255481",
+          "text": "<p>Notre</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "255482",
+          "text": "<p>Nos</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "255483",
+          "text": "<p>Votre</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    }
+  ],
+  "updated_at": "2014-12-05 03:42:13",
+  "nquestions": 20
+}

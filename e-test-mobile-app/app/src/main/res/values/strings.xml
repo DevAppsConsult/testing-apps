@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="income">income</string>
+    <string name="costs">costs</string>
+    <string name="total">total</string>
+
+    <string-array name="items">
+        <item>Updates</item>
+        <item>Subscribed Courses</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="tab_words">Tab Words</string>
+    <string name="tab_numbers">Tab Numbers</string>
+    <string name="EmptyCredentialsWarning">Please enter Username and Password</string>
+    <string name="InvalidCredentialsError">Invalid credentials</string>
+
+</resources>

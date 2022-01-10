@@ -1,0 +1,709 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Topic Tests | E-test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+      <meta name="Ecoach Solutions" content="">
+      <meta name="Benjamin A. Nkansah" content="">
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+    
+    <!-- font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+    <link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery UI -->
+    <link href="css/jQueryUI/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background:#FAAF3F">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <table>
+            <tr>
+              <td>
+                <a class="navbar-brand" href="subjectoptionsdash.html">
+                  <img src="images/back-arrow.png"/>
+                </a>
+              </td>
+              <td style="padding-top:5px; padding-left:15px">
+                <a href="main.html">
+                  <img src="images/logo-navbar.png"/>
+                </a>
+              </td>
+              <td style="padding-top:15px">
+                <div id="sb-search" class="sb-search" style="margin-left:990px;">
+                              <form>
+                                  <input class="sb-search-input" placeholder="Search for question text or question id" type="text" value="" name="search" id="search">
+                                  <input class="sb-search-submit" type="submit" value="">
+                                  <span class="sb-icon-search"></span>
+                              </form>            
+                      </div>
+                    </td>
+            </tr>
+          </table>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- User Account: style can be found in dropdown.less -->
+            <li class="user user-menu">
+              <a data-target="#" href="#" class="data-toggle" data-toggle="dropdown"> <i class="fa fa-user"></i> <span>Victor<i class="caret"></i></span> </a>
+              <ul id="dropdown-menu" class="dropdown-menu" style="width:600%; height:800%;">
+                <!-- User image -->
+                <li class="user-header bg-light-blue">
+                  <img src="images/profile_image.png" class="img-circle" alt="User Image" />
+                  <p>
+                    Username - Level
+                    <small>
+                      Gender - Male
+                    </small>
+                  </p>
+                </li>
+                <!-- Menu Body -->
+                <div class="main">
+                          <ul id="myTab" class="nav nav-tabs">
+                            <li class="active" align="center">
+                              <a href="#Profile" data-toggle="tab" style="width:195px; color: #000;"><span class="glyphicon glyphicon-user"></span> Profile</a>
+                            </li>
+                            <li align="center">
+                              <a href="#Account" data-toggle="tab" style="width:165px; color: #000;"><span class="glyphicon glyphicon-list-alt"></span> Account</a>
+                            </li>
+                            <li align="center">
+                              <a href="#Statistics" data-toggle="tab" style="width:169px; color: #000;"><span class="glyphicon glyphicon-stats"></span> Statistics</a>
+                            </li>
+                          </ul>
+                          <!-- Menu Footer-->
+                          
+                            <div class="tab-content">
+                              <div class="tab-pane fade in active" id="Profile">
+                                <div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Telephone :</td><td> +23326683880</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>School :</td><td> Presec-Legon</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Residence :</td><td> Ashongman</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Country :</td><td> Ghana</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Level :</td><td> Senior High School</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Date of Birth : </td><td> March 18, 1989</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                </table>  
+                            </div>
+                            <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="#" class="btn edit" type="button" style="margin-top:10px; margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-edit"></span> Edit Profile</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+                                  </tr>
+                                  
+                                </table>  
+                            </div>
+                              </div>
+                              <div class="tab-pane fade in" id="Account">
+                                <div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Username :</td><td> victoradatsi</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Referral Code :</td><td> EC2270Em</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Country :</td><td> Ghana</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Level :</td><td> Senior High Schoo</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>Date of Birth : </td><td> March 18, 1989</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                </table>
+                              </div>
+                            <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="#" class="btn editaccount" type="button" style="margin-top:10px; margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-edit"></span> Edit Account</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+                                  </tr>
+                                  
+                                </table>  
+                            </div>
+                        </div>
+                              <div class="tab-pane fade in" id="Statistics">
+                                <div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>eTest: Logins </td><td> 234</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>eTest: Tests taken</td><td> 21</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>eTest: Average Score</td><td> 17.74%</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>E-Coach: Referrals</td><td> 0</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>E-Coach: Last Login </td><td> 09/09/2014</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                  <tr>
+                                    <td>E-Coach: Site Logins </td><td> 145</td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><img src="images/line.png"></td>
+                                  </tr>
+                                </table>
+                              </div>
+                            <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+                                <table>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="#" class="btn edit" type="button" style="margin-top:5px; margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-edit"></span> Edit Profile</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="#" class="btn editaccount" type="button" style="margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-edit"></span> Edit Account</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+                                      <span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+                                  </tr>
+                                  
+                                </table>  
+                            </div>
+                              </div>
+                            </div>
+
+                      </div>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    
+    <div class="top-head-bg">
+   <h1 style="margin-top:5px">Economics</h1>
+   </div>
+                   <!-- Modal -->
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background:#FAAF3F">
+            <div class="modal-header">
+            <h2 class="modal-title" id="myModalLabel" align="center">Instructions</h2><center>Please read carefully.</center>
+                
+            </div>
+            <div class="modal-body">
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" style="border-color:transparent; border-radius:0px; color:#fff; background:#FF0000" class="btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Close</button>
+        </div>
+    </div>
+  </div>
+</div>
+   <table align="center" style="margin-top:6%;">
+   <th>
+     <h2 style="color:#F7921E;">Topic Tests</h2>
+   </th>
+   <th>
+     <button onclick="change()" class="text" id="myButton1" data-is-enabled="true" type="button" style=" margin-top:15px; margin-left:700px; width:150px; height:38px; border-color:transparent; color:#fff; border-radius:0px;  background:#F6921D">ENABLE TEXT MIXING</button>
+   </th>
+   <th>
+     <button href="#"  data-toggle="modal" data-target="#basicModal" style=" margin-top:15px; margin-left:20px; width:131px; height:38px; border-color:transparent; border-radius:0px; color:#fff;  background:#8BC53E" class="btn-large btn-primary">INSTRUCTIONS</button>
+   </th>
+   </table>
+<img src="images/div-mage.jpg"/>
+
+    
+         <table align="center" style="margin-top:10px; margin-bottom:50px">
+    <tbody>
+    <tr style="margin-top:20%">
+    <td style="padding-right:10px; padding-top:10px">
+      <div id="btn" class="btn-div" style="background:#AEBBB9;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+        <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Demand
+        </a>
+      </div>
+      </td>
+    
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#A2E1C0;">
+      <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+        <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Supply
+      </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#D2AA75;">
+      <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+        <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Cost
+      </a>
+      </div>
+    </td>
+    
+    <td style="padding-right:10px; padding-top:10px">      
+      <div class="btn-div" style="background:#F5B453;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Population
+        </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#E4A26F;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Macro
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-top:10px">
+      <div class="btn-div" style="background:#94998E;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Inflation
+        </a>
+      </div>
+    </td>
+    </tr>
+    
+    <tr>
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#94998E;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Depreciation
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#D2AA75;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Production
+        </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#E4A26F;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Micro
+        </a>
+      </div>
+     </td>
+    
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#C6B198;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Taxation
+        </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#9AE0E9;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Analysis
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-top:10px">
+      <div class="btn-div" style="background:#A2E1C0;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Curves
+        </a>
+      </div>
+    </td>
+    </tr>
+    
+    <tr>
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#A2E1C0;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Scarcity
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#538D86;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Incentives
+        </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#AEBBB9;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Consumers
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#F6CB93;">
+        <a href="#" class="Cbtn" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Productivity
+        </a>
+      </div>
+    </td>
+    
+     <td style="padding-right:10px; padding-top:10px">
+      <div class="btn-div" style="background:#94998E;">
+        <a href="#" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Substitution
+        </a>
+      </div>
+    </td>
+    
+    <td style="padding-top:10px">
+      <div class="btn-div" style="background:#C6B198;">
+        <a href="#" style="font-size:200%; border-radius:0px; color:#fff;"> 
+          <span class="hyperspan" style="border-radius:0px; color:#fff;  background:#A2E1C0"></span>Bioeconomics
+        </a>
+      </div>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <!-- Modal for Edit Profile -->
+    <div class="modal fade" id="basicModaltwo" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background:#FAAF3F">
+                <div class="modal-header">
+                <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Profile</h2>
+                    
+                </div>
+                <div class="modal-body col-md-5">
+                    
+                   <center><img src="images/profile_image.png" alt="" class="btn"></center>
+                </div>
+                <div class="modal-body col-md-5" style="margin-top:5%">                    
+                    <h4 style="color:#656565">First Name:  Victor Adatsi</h4>
+                    <h4 style="color:#656565">Last Name: Male</h4>                                   
+                    <h4 style="color:#656565">Gender:  Ashongman</h4>
+                    <h4 style="color:#656565">Telephone: Ghana</h4>
+                    <a type="button" data-toggle="modal" data-dismiss="modal" data-target="#EditbasicModaltwo" class="btn editnext next_button">Next<i class="fa fa-chevron-right"></i></a>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+ <!-- Modal for next Edit Profile -->
+<div class="modal fade" id="EditbasicModaltwo" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background:#FAAF3F">
+            <div class="modal-header">
+            <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Profile</h2>
+                
+            </div>
+            <div class="modal-body col-md-5">
+                
+               <center><img src="images/profile_image.png" alt="" class="btn"></center>
+               <center><a type="button" class="btn previous_button"><i class="fa fa-floppy-o"></i>Save</a></center>               
+               <center><a type="button" data-toggle="modal" data-dismiss="modal" data-target="#basicModaltwo" class="btn previous_button" style="background-color:red"><i class="fa fa-chevron-left"></i>previous</a></center>
+            </div>
+            <div class="modal-body col-md-5" style="margin-top:5%">             
+                <h4 style="color:#656565">School:  Senior High School</h4>
+                <h4 style="color:#656565">Area of Residence: Ashongman</h4>
+                <h4 style="color:#656565">Country: Ghana</h4>                   
+                <h4 style="color:#656565">Level:  Senior High School</h4>
+                <h4 style="color:#656565">Date of Birth: 6/March/1957</h4>
+            </div>
+            <div class="modal-footer">
+                <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Edit User -->
+<div class="modal fade" id="basicModalthree" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background:#FAAF3F">
+            <div class="modal-header">
+            <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Account</h2>
+                
+            </div>
+            <div class="modal-body col-md-5">
+                
+               <center><img src="images/profile_image.png" alt=""></center>
+                <h4 align="center" style="color:#656565">Name:  Victor Adatsi</h4>
+                <h4 align="center" style="color:#656565">Gender: Male</h4>
+               <center><a type="button" class="btn edit previous_button"><i class="fa fa-floppy-o"></i>Save</a></center>
+            </div>
+            <div class="modal-body col-md-5" style="margin-top:5%">                    
+                <h4 style="color:#656565">Telephone:  Victor Adatsi</h4>
+                <h4 style="color:#656565">School: Male</h4>                                   
+                <h4 style="color:#656565">Residece:  Ashongman</h4>
+                <h4 style="color:#656565">Country: Ghana</h4>                   
+                <h4 style="color:#656565">level:  Senior High School</h4>
+                <h4 style="color:#656565">Date Of Birth: 6/March/1957</h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+</div><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+
+        <script src="js/classie.js"></script>
+        <script src="js/uisearch.js"></script>
+        <script>
+            new UISearch( document.getElementById( 'sb-search' ) );
+        </script>
+    
+    <!-- Script that controls enabling and disabling of test mix -->
+    <script>
+    var text1 = "ENABLE TEXT MIXING";
+    var text2 = "DISABLE TEXT MIXING";
+    var text3 = "Normal";
+    var text4 = "Selected";
+    var text5 = "START";
+    var elem = document.getElementById("myButton1");
+    var state = document.getElementById("btn");
+
+    $('button').click(function(e){
+        var isEnabled = $(this).data('is-enabled');
+        //isEnabled is storing our state so we can check
+        var textToDisplay;
+        var changeState;
+        //check the value of our variable storing state and change the text as necessary
+        if (isEnabled == "true"){
+            textToDisplay = text1;
+            changeState = text3;
+            elem.style.backgroundColor = "#F6921D";
+
+        }else{
+             textToDisplay = text2;
+             changeState = text4;            
+             elem.style.backgroundColor = "#FF0000";
+        }
+        //toggle our variable state now
+        if (isEnabled == "true"){
+            $(this).data("is-enabled","false"); 
+            if ($('.Cbtn').click(function(e){  
+                   state.style.backgroundImage = "url('images/selected.png')";
+                   state.style.backgroundRepeat = "no-repeat";    
+                   state.style.backgroundPosition = "center";             
+                   $('.text').text (text5);
+                   elem.style.backgroundColor = "#8BC53E";
+                   if (elem.value === "START TEST"){
+                   $('#myButton1').click(function(e){
+                   elem.style.backgroundColor = "#8BC53E";
+                   });                                   
+                                    
+                  }
+                   if($('#btn').click(function(e){
+                   elem.value = "DISABLE TEXT MIXING";
+                   //location.href='test_page.html';
+                   elem.style.backgroundColor = "#8BC53E"; 
+                   state.style.backgroundImage = "none";
+                   }));
+            }));
+
+        }else{
+            $(this).data("is-enabled", "true");    
+        }
+        $('.change').text(changeState);
+        $('.text').text(textToDisplay);
+    })
+    </script>
+
+
+    <!--fix profile tabs Onclick   -->
+    <script type="text/javascript">
+      $('.tab-content, .btn, .user-header, .dropdown-menu a[data-toggle="tab"]').click(function(e) {
+            e.stopPropagation();
+            $(this).tab('show')
+      });
+      </script>
+      
+    <script type="text/javascript">
+      $('.edit').click(function(e) {
+      $('#EditbasicModaltwo').modal('hide');
+      $('#basicModaltwo').modal('show');
+      });
+    </script>
+    <script type="text/javascript">
+      $('.editnext').click(function(e) {
+      $('#basicModaltwo').modal('hide');
+      $('#EditbasicModaltwo').modal('show');
+      });
+    </script>
+      <script type="text/javascript">
+        $('.editaccount').click(function(e) {
+        $('#basicModalthree').modal('show');
+        });
+      </script>
+
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Welcome | E-Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <meta name="Ecoach Solutions" content="eTest web app V3.0">
+    <meta name="Benjamin A. Nkansah" content="">
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
+     <script type="text/javascript">
+     var app_options = {
+    'API_key':'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+    //optional
+    'custom_js':'js/app.js',
+    'custom_css':'css/app.css'
+    
+};
+
+ </script>
+    
+    <script type="text/javascript" src="js/api-etest-1.0.js"></script>
+    <script type="text/javascript" src="http://api.ecoachsolutions.com/js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/api-ecoach.common-1.0.js"></script>
+    <script type="text/javascript" src="js/api-ecoach.etest-1.0.js"></script>
+    <script type="text/javascript" src="js/api-swipesense.js"></script>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/d3.pie.js"></script>
+    <script type="text/javascript" src="js/ecoach.charts.js"></script>
+    <script type="text/javascript" src="js/app.js">
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <script src = jqueryui/js/jquery-ui-1.8.16.custom.min.js></script>
+      <link rel=stylesheet type=text/css href=jqueryui/css/smoothness/jquery-ui-1.8.16.custom.css />
+     
+  </head>
+
+  <body style="background-image:url(images/splashbg.jpg);">
+    <div class="container">
+      <div class="starter-template">
+        <div class="row">
+            <!-- <div id="sb-search" class="sb-search">
+                        <form style="padding-bottom:10%;">
+                            <input class="sb-search-input" placeholder="Search for questions & answers (question text or question id)" type="text" value="" name="search" id="search">
+                            <input class="sb-search-submit" type="submit" value="">
+                            <span class="sb-icon-search"></span>
+                        </form>
+            
+            </div>-->
+          <div class="col-md-7" style="margin-top:8%;">
+            <h1 class="wow fadeInDown animation animated-item-1" data-wow-duration="1000ms" data-wow-delay="3000ms"  style="font-size:800%; color:#fff"><img src="images/smile.png" style="margin-bottom:5px"> Hi there!</h1>            
+            
+                    <h1 class="wow fadeInDown animation animated-item-2" data-wow-duration="1000ms" data-wow-delay="4000ms" style="font-size:400%; color:#fff">&nbsp;Welcome to &nbsp;<img src="images/logo-small.png"></h1>
+
+                    <div class="input-group" style="margin-top:20px">
+                       <input type="text" class="form-control main-search-input" placeholder="Search for question text or id...">
+                         <span class="input-group-btn">
+                           <button class="btn main-search-btn" type="button">
+                            Go!
+                           </button>
+                         </span>
+                    </div><!-- /input-group -->
+                   
+          </div>
+          <div class="col-md-5 wow fadeInDown animation animated-item-2" data-wow-duration="1000ms" data-wow-delay="1000ms">
+              
+              <!-- Modal -->
+                <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="background:#FAAF3F">
+                            <div class="modal-header">
+                            <h2 class="modal-title" id="myModalLabel" align="center">Find your Ecoach account</h2><center>Enter your username or email.</center>
+                                
+                            </div>
+                            <div class="modal-body">
+                                <form id="recover-form">
+                          <div class="form-group">
+                            <label for="recipient-name" class="control-label">Username:</label>
+                            <input type="text" class="form-control">
+                          </div>
+                          <div class="form-group">
+                            <label for="message-text" class="control-label">Email:</label>
+                            <input type="email" class="form-control">
+                          </div>
+                        </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              
+        <form style="margin-top:10%; margin-left:30%" id="signin-form" method="post">                          
+            <input class="input" type="text" name="user" id="user" required placeholder="Username">
+         <div style="margin-top:5px">  
+            <input class="input" type="password" id="pass" name="pass" required placeholder="Password">
+         </div>                             
+         <div style="margin-top:0px">
+            <input class="button-1" type="submit" name="submit" value="Sign in" onclick="ecoach_signin_submit()">
+         </div>                             
+            <a href="#" data-toggle="modal" data-target="#basicModal" ><font color="white"><center>Forgotten Password?</center></font></a>
+            <div id="main-div-middle"></div></p>
+        </form>
+               
+        <form style="margin-top:10%; margin-left:30%" id="signup-form" method="post">                   
+                               
+                            <input class="input" type="text" name="fname" id="fname" required placeholder="First Name"> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="text" name="lname" id="lname" required placeholder="Last Name">  
+                            </div>                      
+                                   
+                            <div style="margin-top:5px">                  
+                            <input class="input" type="email" name="email" id="email" required placeholder="Email">                          
+                            </div>   
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="number" name="phone" id="phone" required placeholder="Phone">                                             
+                            </div> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="text" name="country" id="country" required placeholder="Country">
+                            </div> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="text" name="sch" id="sch" required placeholder="School">
+                            </div> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="text" name="user2" id="user2" required placeholder="Username">
+                            </div> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="password" name="pass1" id="pass1" required placeholder="Password">
+                            </div> 
+
+                            <div style="margin-top:5px">
+                            <input class="input" type="password" name="pass2" id="pass2" required placeholder="Password*">
+                            </div> 
+                 <div style="margin-top:5px">
+                <font color="white">Don’t have an account?</font> <input class="button-2" id="signup" type="submit" name="submit" value="Sign Up" onclick="ecoach_signup_submit()">
+                
+                </div>
+                
+                </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+        <script src="js/classie.js"></script>
+        <script src="js/uisearch.js"></script>
+        <script>
+            new UISearch( document.getElementById( 'sb-search' ) );
+        </script>
+    <script type="text/javascript">
+   function ecoachSignIn(){
+    
+        var username = $('#user').val(), password = $('#pass').val();
+        var host = "https://api.ecoachsolutions.com/";
+        var url = host+"main.php?1&server=remote&user="+username+"&pass="+password;       
+        
+        //alert('ajax start: ' + JSON.stringify(info));
+        alert("the url is "+url);
+        
+       $.ajax({
+            type: "POST",
+            url: url,
+            cache: false,
+            data:"ac="+ac,
+            dataType: "json",
+            success: function(responseData){
+                msg = responseData.msg;
+                state = responseData.status;
+                if(state=="success"){
+                    msg ="<span class='gr'>"+msg+"</span>"
+                     alert("the msg is "+msg);
+                }else{
+                    msg ="<span class='r'>"+msg+"</span>"
+                     alert("the msg is "+msg);
+                }
+                setTimeout(function(){
+                    $('#animation').html('');
+                    $('#processing-msg').html(msg);
+                    
+                    if(state =="success"){
+                        setTimeout(function(){
+                            window.location = "main.html"
+                        },2000); //1000 for 1 second
+                    }
+                },3000); //1000 for 1 second
+            }
+        });
+    
+            }
+    </script>
+   
+
+  </body>
+</html>

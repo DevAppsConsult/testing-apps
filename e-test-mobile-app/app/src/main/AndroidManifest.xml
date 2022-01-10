@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ecoach.e_test_mobile_application">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:installLocation="preferExternal"
+        android:theme="@style/CustomActionBarTheme">
+
+        <!-- Splash screen -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.DrawerMain"
+            android:label="">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sign In activity -->
+        <activity android:name=".SignIn"></activity>
+
+        <!-- Sign In activity -->
+        <activity android:name="ecoach.e_test_mobile_packages.Json"></activity>
+
+        <!-- Sign Up activity -->
+        <activity android:name=".SignUp"></activity>
+
+
+        <!-- Account activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.AndroidTabLayoutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="">
+
+        </activity>
+
+        <!--  Account Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.AccountActivity"
+            android:label="" />
+
+        <!--  Stats Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.StatsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="" />
+
+        <!--  Profile Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.ProfileActivity"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.DrawerMain">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.DrawerMain" />
+
+        </activity>
+
+
+        <!--  NewTest Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.NewTest"
+            android:label="" />
+
+        <!--  SelectCourse Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.SelectCourse"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.DrawerMain">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.DrawerMain" />
+
+        </activity>
+
+        <!--  History Activity-->
+        <activity
+            android:name="ecoach.e_test_mobile_application.HistoryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="" />
+
+
+        <!--  FullHistory Activity-->
+        <activity
+            android:name="ecoach.e_test_mobile_application.HistoryDashboard"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="" />
+
+
+
+        <!--  Analytics Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.AnalyticsActivity"
+            android:label="" />
+
+
+        <!--  Drawer Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.SplashActivity"
+            android:label="" />
+
+        <!--  Logout Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Logout"
+            android:label="" />
+
+        <!--  Subjects Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Subject"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.SelectCourse">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.SelectCourse" />
+        </activity>
+
+        <activity
+            android:name="ecoach.e_test_mobile_packages.TopicTest"
+            android:label="" />
+
+
+        <!--  SubjectsInfo Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Subjectinfo"
+            android:label="" />
+
+        <!--  Subjecttopictest Activity -->
+        <activity
+            android:name=".TopicTest"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.Subject">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.Subject" />
+        </activity>
+
+        <!--  Subjectyrs Activity -->
+        <activity
+            android:name=".SubjectPast"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.Subject">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.Subject" />
+
+        </activity>
+
+
+        <!--  Subjectmocktest Activity -->
+        <activity
+            android:name=".MockTest"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.Subject">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.Subject" />
+
+        </activity>
+
+
+        <!--  test Page Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.TestActivity"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.Subject">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.Subject" />
+        </activity>
+
+        <!--  Subjectmocktest Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_packages.QuestionPackage"
+            android:label="" />
+
+        <!--  Chart Page Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Results"
+            android:label="" />
+
+        <!--  Assesment Page Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Assesment"
+            android:label=""
+            android:parentActivityName=".TopicTest">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TopicTest" />
+        </activity>
+
+        <!--  Results Page Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Review"
+            android:label="" />
+
+        <!--  Help Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.Help"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.DrawerMain">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.DrawerMain" />
+
+        </activity>
+
+
+        <!--  About Activity -->
+        <activity
+            android:name="ecoach.e_test_mobile_application.About"
+            android:label=""
+            android:parentActivityName="ecoach.e_test_mobile_application.DrawerMain">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ecoach.e_test_mobile_application.DrawerMain" />
+
+        </activity>
+
+        <activity android:name="org.achartengine.GraphicalActivity" />
+    </application>
+
+
+</manifest>

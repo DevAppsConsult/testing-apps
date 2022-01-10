@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pie_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAndroid"
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pie_container"
+        android:layout_marginTop="200dip"
+        android:background="#444544"
+        android:padding="10dip"
+        android:text="Android"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvIphone"
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pie_container"
+        android:layout_marginTop="200dip"
+        android:layout_toRightOf="@+id/tvAndroid"
+        android:background="#878887"
+        android:padding="10dip"
+        android:text="IPhone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBlackBerry"
+        android:layout_width="110dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pie_container"
+        android:layout_marginTop="200dip"
+        android:layout_toRightOf="@+id/tvIphone"
+        android:background="#98967F"
+        android:padding="10dip"
+        android:text="BlackBerry"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNokia"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBlackBerry"
+        android:layout_toRightOf="@+id/tvSamsung"
+        android:background="#A1A1A1"
+        android:padding="10dip"
+        android:text="Others"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSamsung"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAndroid"
+        android:background="#0000FF"
+        android:padding="10dip"
+        android:text="Nokia"
+
+        android:textStyle="bold" />
+</RelativeLayout>

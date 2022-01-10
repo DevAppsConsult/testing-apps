@@ -1,0 +1,58 @@
+{
+  "Topics": [
+    {
+      "Topic": [
+        {
+         "text":"ADJECTIVES"
+        },
+      {
+      "text":"ADVERBS"
+      },
+      {
+      "text":"CONJUNCTIONS"
+      },
+      {
+      "text":"IDIOMS AND FIGURATIVE SPEECHES"
+      },
+      {
+      "text":"NOUNS"
+      },
+      {
+      "text":"PAST PARTICIPLE TENSE "
+      },
+      {
+      "text":"PEOPLE -  WHAT WE CALL THEM"
+      },
+      {
+      },
+      {
+      "text":"PROVERBS "
+      },
+      {
+      "text":"SIMILES"
+      },
+      {
+      "text":"SIMPLE FUTURE TENSE "
+      },
+      {
+      "text":"SIMPLE PAST TENSE "
+      },
+      {
+      "text":"SIMPLE PRESENT TENSE"
+      },
+      {
+      "text":"SOUNDS"
+      },
+      {
+      "text":"SUBJECT VERB AGREEMENT"
+      },
+      {
+      "text":"VERBS"
+      },
+      {
+      "text":"VOCABULARY"
+      }
+      ]
+    }
+     ]
+}

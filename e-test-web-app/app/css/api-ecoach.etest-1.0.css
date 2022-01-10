@@ -1,0 +1,203 @@
+#etest-test-div{
+	height: 100%;
+	text-align: left;
+}
+
+#etest-question{
+	margin: 10px 5px 5px 5px;
+	text-align: left;
+}
+
+#etest-qinstruction{
+	padding: 5px 15px 5px 15px;
+	font-style: italic;
+	color: #BBB;
+}
+#etest-qinstruction .bolder{
+	color: #888;
+	font-style: normal;
+}
+
+#etest-qtext{
+	padding: 10px 15px 15px 15px;
+}
+#etest-qresource{
+	padding: 0px 15px 10px 15px;
+	text-align: left;
+}
+#etest-qoptions{
+	padding: 5px 0px 10px 0px;
+}
+#etest-qsolution{
+	padding: 5px 15px 15px 15px;
+	margin: 10px 10px 0px 10px;
+	text-align: left;
+	background: #e2fae3;
+	border: #00ae00 solid 1px;
+}
+.etest-qoption{
+	background: #f3f3f3;
+	border: transparent solid 5px;
+	border-radius: 10px;
+	margin: 5px 10px 5px 10px;
+	min-height: 40px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.etest-qoption-opt{
+	width: 30px;
+	padding: 10px 20px 10px 20px;
+	float: left;
+	min-height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.etest-qoption-text{
+	background: #FFF;	
+	width: 1000px;
+	padding: 10px 20px 10px 20px;
+	float: left;
+	min-height: 40px;
+	text-align: left;
+}
+
+.etest-qoption:hover{
+	background: #CCC;
+}
+.etest-qoption:hover .etest-qoption-text{
+	color: #777;
+	font-weight: bolder;
+}
+
+.etest-qoption.wrong{
+	background: #fee9e7;
+	color: red;
+	font-weight: bolder;
+	font-style: italic;
+}
+.etest-qoption.wrong .etest-qoption-text{
+	background: #fee9e7;
+	color: red;
+}
+
+.etest-qoption.correct{
+	background: #00ae00;
+	color: white;
+	font-weight: bolder;
+}
+.etest-qoption.correct .etest-qoption-text{
+	background: #c6f4c8;
+	color: #00ae00;
+}
+
+.etest-qoption.selected{
+	background: #CCC;
+	color: white;
+	font-weight: bolder;
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.etest-qoption.selected .etest-qoption-text{
+	color: #777;
+}
+
+.etest-qoption.unselected{
+	background: whitesmoke;
+	font-style: italic;
+}
+.etest-qoption.unselected .etest-qoption-text{
+	background: whitesmoke;
+}
+
+#etest-qprogress{
+	height: 6px;
+	margin-bottom: 2px;
+}
+.ec-progress{
+	float: left;
+	width: 20px;
+	height: 100%;
+}
+.ec-progress:hover{
+	cursor: pointer;
+}
+.ec-progress.attempted{
+	background: #00e600;
+}
+.ec-progress.current{
+	background: #00ae00;
+}
+.ec-progress.unattempted{
+	background: #DDD;
+}
+
+#etest-results{
+	padding: 10px 0px 5px 0px;
+}
+.etest-result{
+	padding: 20px;
+	margin: 10px;
+	overflow-y: auto;
+	float: left;
+}
+
+.etest-result-entry{
+	margin: 10px 0px 0px 0px;
+	border-top: #AAA solid 1px;
+	padding-top: 10px;
+	width: 100%;
+}
+
+#etest-result-chart{
+	min-height: 300px;
+}
+
+.etest-qfeedback{
+	font-size: 3em;
+	font-weight: bolder;
+	color: white;
+	padding: 20px;
+	margin: 4px;
+	float: left;
+	/*min-width: 1em;*/
+}
+.etest-qfeedback:hover{
+	cursor: pointer;
+}
+.etest-qfeedback.correct{
+	background: #89e98e;
+}
+.etest-qfeedback.wrong{
+	background: #fbaaa4;
+}
+.etest-qfeedback.unattempted{
+	background: #CCC;
+}
+
+.ec-timer{
+	color: #00ae00;
+}
+.ec-timer.warning{
+	color: red;
+}
+
+.ec-infotext{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.ec-button-span{
+	padding: 40px;
+	background-color: #EFEFEF;
+	border-color: #888;
+	color: #C90;
+}
+.ec-button-span:hover{
+	color: white;
+	cursor: pointer;
+	background-color: #DA0;
+	border-color: #EFEFEF;
+}
+

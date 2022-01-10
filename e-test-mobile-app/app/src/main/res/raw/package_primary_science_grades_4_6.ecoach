@@ -1,0 +1,1709 @@
+{
+  "name": "PRIMARY SCIENCE (GRADES 4 - 6)",
+  "course_id": "42",
+  "courseID": "01PU03",
+  "package_code": "PRIMARY",
+  "description": "",
+  "category": "",
+  "author": "content@ecoachsolutions.com",
+  "topics": [
+    "MATTER",
+    "LIVING & NON-LIVING THINGS ",
+    "POLLINATION",
+    "THE UNIVERSE",
+    "HYGIENE",
+    "WATER",
+    "POLLUTION"
+  ],
+  "topicbanks": [
+    {
+      "name": "MATTER",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "55149",
+        "55153",
+        "55154",
+        "55158",
+        "55160",
+        "55163",
+        "55165",
+        "55168",
+        "55170",
+        "55174"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "LIVING & NON-LIVING THINGS ",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "55175",
+        "55176",
+        "55177",
+        "55185",
+        "55195",
+        "55200",
+        "55202",
+        "55203",
+        "55205",
+        "55210"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "POLLINATION",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "55216",
+        "55220",
+        "56210",
+        "56211",
+        "56213",
+        "56214",
+        "56216",
+        "56217",
+        "56231",
+        "56239"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "WATER",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "56258",
+        "56259",
+        "56260",
+        "56261",
+        "56262",
+        "56263",
+        "56264",
+        "56265",
+        "56266",
+        "56267"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "POLLUTION",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "56268",
+        "56269",
+        "56270",
+        "56271",
+        "56272",
+        "56273",
+        "56274",
+        "56275",
+        "56276",
+        "56277"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "quizzes": [],
+  "questions": [
+    {
+      "qid": "55149",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>How many states of matter are there ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:28:29",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234845",
+          "text": "<p>1</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234846",
+          "text": "<p>2</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234847",
+          "text": "<p>3</p>",
+          "value": "1",
+          "solution": "<p>liquid , solid and gas</p>"
+        },
+        {
+          "id": "234848",
+          "text": "<p>4</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55153",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which state of matter has a fixed shape ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:29:32",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234865",
+          "text": "<p>solid</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234866",
+          "text": "<p>liquid</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234867",
+          "text": "<p>gas</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55154",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following states of matter cannot flow ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:31:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234871",
+          "text": "<p>solids</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234870",
+          "text": "<p>liquids</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234872",
+          "text": "<p>gases</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55158",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>A stone is a ...................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:34:39",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234890",
+          "text": "<p>solid</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234891",
+          "text": "<p>liquid</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234892",
+          "text": "<p>gas</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55160",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following is not a solid ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:38:03",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234901",
+          "text": "<p>water</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234900",
+          "text": "<p>plastic bag</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234902",
+          "text": "<p>balloon</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55163",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following is a liquid ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:39:40",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234915",
+          "text": "<p>rice</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234916",
+          "text": "<p>roofing sheet</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234917",
+          "text": "<p>fizzy drink</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55165",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following is a gas ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:42:42",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234926",
+          "text": "<p>toothpaste</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234925",
+          "text": "<p>oxygen</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234927",
+          "text": "<p>car tyre</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55168",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following is not a gas ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:45:15",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234940",
+          "text": "<p>oxygen</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234941",
+          "text": "<p>carbondioxide</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234942",
+          "text": "<p>rainwater</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55170",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following states of matter does not have a fixed volume</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:49:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234951",
+          "text": "<p>solid</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234950",
+          "text": "<p>liquid </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234952",
+          "text": "<p>gas </p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55174",
+      "topic": "1245",
+      "instructions": "",
+      "text": "<p>Which of the following is not a liquid ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 11:52:16",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234970",
+          "text": "<p>petrol</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234971",
+          "text": "<p>water</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234972",
+          "text": "<p>chalk</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55175",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Living organisms are living things that can grow </p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 12:02:30",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234976",
+          "text": "<p>True </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234975",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234979",
+          "text": "<p>*Answer Text*</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55176",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Which of the following is a living thing?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 12:05:30",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234980",
+          "text": "<p>beans plant</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234981",
+          "text": "<p>stone</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234982",
+          "text": "<p>car tyre</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55177",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Which of the following is a non-living thing ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 12:25:12",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "234986",
+          "text": "<p>stone</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "234985",
+          "text": "<p>tadpole</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "234987",
+          "text": "<p>kiwi</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55185",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>A ............... thing is one that cannot grow or reproduce</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 12:28:08",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235026",
+          "text": "<p>living</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235025",
+          "text": "<p>non-living</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55195",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Non-living organisms are sensitive to stimuli</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 12:57:43",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235075",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235076",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55200",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>A living thing can respire ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:07:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235102",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "235101",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55202",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Which of the following living things lives in water ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:13:10",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235110",
+          "text": "<p>elephant</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235111",
+          "text": "<p>fish</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "235112",
+          "text": "<p>monkey</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55203",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Non-living things can move on their own </p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:15:33",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235116",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235115",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55205",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Cars help to move people from one place to another . Are cars living organisms ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:22:12",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235125",
+          "text": "<p>Yes </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235126",
+          "text": "<p>No</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55210",
+      "topic": "1246",
+      "instructions": "",
+      "text": "<p>Non-living things cannot grow </p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:24:13",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235150",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "235151",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55216",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>....................... is the transfer of pollen grains from an anther of a flower to a stigma of a flower ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:45:06",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235180",
+          "text": "<p>pollination</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "235181",
+          "text": "<p>fertilisation</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235182",
+          "text": "<p>reproduction</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "55220",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which part of the flower attracts insects to a flower ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-06-29 13:46:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "235200",
+          "text": "<p>petals</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "235201",
+          "text": "<p>sepals</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235202",
+          "text": "<p>stigma </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "235203",
+          "text": "<p>ovule</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56210",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following is not an agent of pollination </p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:44:07",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240150",
+          "text": "<p>insects</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240151",
+          "text": "<p>wind</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240152",
+          "text": "<p>humans</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56211",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following is not an agent of Pollination</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:47:01",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240156",
+          "text": "<p>bees</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240155",
+          "text": "<p>houseflies</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240157",
+          "text": "<p>dog</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56213",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>How many types of pollination are there ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:49:28",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240166",
+          "text": "<p>1</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240165",
+          "text": "<p>2</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240167",
+          "text": "<p>3</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56214",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following is a type of pollination ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:54:40",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240170",
+          "text": "<p>single pollination</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240171",
+          "text": "<p>double pollination </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240172",
+          "text": "<p>self pollination </p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56216",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following is a type of pollination ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:57:03",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240181",
+          "text": "<p>cross pollination</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240180",
+          "text": "<p>right pollination</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240182",
+          "text": "<p>tri pollination</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56217",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Flowers that are pollinated by insects are ....................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 13:58:41",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240186",
+          "text": "<p>brightly coloured</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240185",
+          "text": "<p>have featherly pollen grains</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240187",
+          "text": "<p>dull coloured</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56231",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following is true about pollination ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 14:49:45",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240259",
+          "text": "<p>it is the dispersal of seeds far away from the parent plant</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240258",
+          "text": "<p>it is the transfer of pollen grains from the anther of a flower to the stigma of a flower </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240257",
+          "text": "<p>it is the washing away of the top soil by agents</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56239",
+      "topic": "1247",
+      "instructions": "",
+      "text": "<p>Which of the following indicates pollination by wind ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 14:57:21",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240296",
+          "text": "<p>light pollen grains </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240295",
+          "text": "<p>sticky pollen grains </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240297",
+          "text": "<p>flowers are brightly coloured</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56258",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Which of the following is a fresh water body?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:08:35",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240390",
+          "text": "<p>lagoon</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240391",
+          "text": "<p>stream</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240392",
+          "text": "<p>lake</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56259",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Water can be used for all of the following except ....................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:32:47",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240396",
+          "text": "<p>washing of plates </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240395",
+          "text": "<p>watering of plants </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240397",
+          "text": "<p>dusting</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56260",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Water helps plants to grow ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:34:31",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240401",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240400",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56261",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Which of the following can be described as hard water ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:36:00",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240407",
+          "text": "<p>rainwater</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240406",
+          "text": "<p>pipe borne water </p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56262",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Water that does not lather readily with soap is known as ...........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:38:10",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240412",
+          "text": "<p>hardwater</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240411",
+          "text": "<p>soft water</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56263",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Water that lathers readily with soap is known as ...............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:40:33",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240417",
+          "text": "<p>soft water</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240416",
+          "text": "<p>hard water </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240415",
+          "text": "<p>*Answer Text*</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56264",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Pipe borne water is an example of ........................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:41:24",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240421",
+          "text": "<p>hard water </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240420",
+          "text": "<p>soft water </p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56265",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Which of the following is true about hard water ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:43:04",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240427",
+          "text": "<p>it has calcium and magnesium ions in it</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240426",
+          "text": "<p>the water feels hard </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240425",
+          "text": "<p>it lathers readily with soap</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56266",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Which of the following is useful in the brewery industry ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:50:14",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240431",
+          "text": "<p>hardwater </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240430",
+          "text": "<p>softwater</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56267",
+      "topic": "1255",
+      "instructions": "",
+      "text": "<p>Water that easily lathers with soap is called .............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 16:53:15",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240437",
+          "text": "<p>hardwater</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240436",
+          "text": "<p>softwater</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56268",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>Pollution is the release of harmful substance into the environment </p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:13:55",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240442",
+          "text": "<p>True </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240441",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56269",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>How many types of pollution do we have ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:15:46",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240447",
+          "text": "<p>1</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240446",
+          "text": "<p>2</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240445",
+          "text": "<p>3</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56270",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>Which of the following can cause air pollution ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:18:19",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240451",
+          "text": "<p>exhaust fumes from cars </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240450",
+          "text": "<p>paper waste</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240452",
+          "text": "<p>DDT</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56271",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>Which of the following can cause water population ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:22:01",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240456",
+          "text": "<p>using DDT for fishing</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240455",
+          "text": "<p>flatulence</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240457",
+          "text": "<p>smoke</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56272",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>Which of the following can cause land pollution ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:24:50",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240461",
+          "text": "<p>dumping of refuse indescriminately</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240460",
+          "text": "<p>washing of clothes</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240462",
+          "text": "<p>exhaust fumes from cars </p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56273",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>The release of harmful substance into the atmosphere is known as ......................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:25:41",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240466",
+          "text": "<p>air pollution </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240465",
+          "text": "<p>land pollution </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240467",
+          "text": "<p>water pollution</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56274",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>The release of harmful substance into water bodies is known as .............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:29:44",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240471",
+          "text": "<p>liquid pollution </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240470",
+          "text": "<p>water pollution</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240472",
+          "text": "<p>land pollution </p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56275",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>The dumping of refuse indescriminately and the release of harmful substance into the soil to cause degradation is know as ................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:31:34",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240476",
+          "text": "<p>air pollution</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240475",
+          "text": "<p>water pollution </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240477",
+          "text": "<p>land pollution </p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56276",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>One of the ways of reducing land pollution is to&nbsp; .............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:34:59",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240481",
+          "text": "<p>make available dustbins every where so people can dump rubbish into it </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240480",
+          "text": "<p>restrain farmers from using chemicals in fishing </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240482",
+          "text": "<p>encourage drivers to change their oils regularly</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "56277",
+      "topic": "1256",
+      "instructions": "",
+      "text": "<p>Using Electric instead of gasoline cars will reduce ......................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-07-01 17:36:26",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "240486",
+          "text": "<p>air pollution </p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "240485",
+          "text": "<p>land pollution </p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "240487",
+          "text": "<p>water pollution</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    }
+  ],
+  "updated_at": "2014-12-05 03:42:13",
+  "nquestions": 50
+}

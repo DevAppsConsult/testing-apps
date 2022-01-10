@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/subjectbg">
+
+            <TextView
+                android:id="@+id/tvhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:text="Economics"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvpq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:text="Past Questions"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#F7921E"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/instructionsbtnbg">
+
+            <TextView
+                android:id="@+id/tvinstructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="140dp"
+                android:text="INSTRUCTIONS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#9E9E9E"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnyrone"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="25dp"
+                android:text="1993"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnyrtwo"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="5dp"
+                android:text="1994"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnyrthree"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="5dp"
+                android:text="1995"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnyrfour"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="1995"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/btnyrfive"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:text="1996"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+
+            <Button
+                android:id="@+id/btnyrsix"
+                android:layout_width="140dp"
+                android:layout_height="147dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:text="1997"
+                android:textColor="#fff"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,1871 @@
+{
+  "name": "PRIMARY ICT (GRADES 4 - 6)",
+  "course_id": "44",
+  "courseID": "01PU04",
+  "package_code": "PRIMARY",
+  "description": "",
+  "category": "",
+  "author": "content@ecoachsolutions.com",
+  "topics": [
+    " INFORMATION AND COMMUNICATION TECHNOLOGY",
+    "ADVANCING TEXT FORMATTING",
+    "INTRO TO INTERNET",
+    "INTRODUCTION AND USE OF INTERNET EXPLORER",
+    "CHANGING THE DESKTOP BACKGROUND",
+    "PRINTING A FILE"
+  ],
+  "topicbanks": [
+    {
+      "name": "ADVANCING TEXT FORMATTING",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "65297",
+        "65298",
+        "65299",
+        "65300",
+        "65301",
+        "65302",
+        "65303",
+        "65304",
+        "65306",
+        "65307"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "INTRO TO INTERNET",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "65309",
+        "65311",
+        "65312",
+        "65313",
+        "65314",
+        "65315",
+        "65316",
+        "65317",
+        "65318",
+        "65319"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "CHANGING THE DESKTOP BACKGROUND",
+      "author": "content@ecoachsolutions.com",
+      "description": "",
+      "category": "",
+      "questions": [
+        "65328",
+        "65329",
+        "65330",
+        "65331",
+        "65332",
+        "65333",
+        "65334",
+        "65335",
+        "65336",
+        "65337"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "quizzes": [
+    {
+      "name": "SAMPLE TESTS 1",
+      "author": "content@ecoachsolutions.com",
+      "time": "0",
+      "description": "",
+      "category": "",
+      "type": "BANK",
+      "instructions": "",
+      "questions": [
+        "41112",
+        "41113",
+        "41114",
+        "41115",
+        "41116",
+        "41117",
+        "41118",
+        "41119",
+        "41120",
+        "41121"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    },
+    {
+      "name": "SAMPLE TESTS 2",
+      "author": "content@ecoachsolutions.com",
+      "time": "0",
+      "description": "",
+      "category": "",
+      "type": "BANK",
+      "instructions": "",
+      "questions": [
+        "41122",
+        "41123",
+        "41124",
+        "41125",
+        "41126",
+        "41127",
+        "41128",
+        "41129",
+        "41130",
+        "41131"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "questions": [
+    {
+      "qid": "41112",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The result of processed data is termed as .........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:43:16",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164661",
+          "text": "<p>information</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164662",
+          "text": "<p>window</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164663",
+          "text": "<p>printout</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164664",
+          "text": "<p>input</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41113",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>An example of computer application software include ............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:44:18",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164666",
+          "text": "<p>windows vista&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164667",
+          "text": "<p>windows xp</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164668",
+          "text": "<p>microsoft excel</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164669",
+          "text": "<p>monitor</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41114",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these cannot be found on the title bar ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:45:32",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164671",
+          "text": "<p>delete</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164672",
+          "text": "<p>close</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164673",
+          "text": "<p>maximize</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164674",
+          "text": "<p>minimize</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41115",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>A raw material that is processed into information is called ...............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:46:31",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164676",
+          "text": "<p>data</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164677",
+          "text": "<p>information technology</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164678",
+          "text": "<p>raw information</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164679",
+          "text": "<p>information processing&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41116",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is not an icon on the desktop</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:47:59",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164681",
+          "text": "<p>start menu button</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164682",
+          "text": "<p>folders</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164683",
+          "text": "<p>files</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164684",
+          "text": "<p>programs</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41117",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is the odd among the group ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:49:33",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164687",
+          "text": "<p>programs</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164688",
+          "text": "<p>clock</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164689",
+          "text": "<p>files</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164686",
+          "text": "<p>folders</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41118",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is an output device&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:50:24",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164691",
+          "text": "<p>mouse&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164692",
+          "text": "<p>keyboard</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164693",
+          "text": "<p>printer</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164694",
+          "text": "<p>system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41119",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Data is fed into the computer by using the ............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:51:15",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164696",
+          "text": "<p>speaker</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164697",
+          "text": "<p>printer</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164698",
+          "text": "<p>keyboard</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164699",
+          "text": "<p>monitor</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41120",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is the second stage of information Processing Cycle ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:54:36",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164703",
+          "text": "<p>store&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164704",
+          "text": "<p>output&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164701",
+          "text": "<p>process</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164702",
+          "text": "<p>input&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41121",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is sometimes referred to as the brain of the computer ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:55:58",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164708",
+          "text": "<p>CPU</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164709",
+          "text": "<p>system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164706",
+          "text": "<p>monitor&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164707",
+          "text": "<p>microcomputer</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41122",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>All the components below are computer hardware except ............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 18:59:23",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164711",
+          "text": "<p>plotter&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164712",
+          "text": "<p>printer&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164713",
+          "text": "<p>virus&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164714",
+          "text": "<p>video display unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41123",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>A decorative picture which is used to beautif the background of a desktop screen is called ............</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:00:56",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164719",
+          "text": "<p>screen saver&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164716",
+          "text": "<p>wallpaper&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164717",
+          "text": "<p>desktop picture</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164718",
+          "text": "<p>windows XP</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41124",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>One difference between data and information is that ...........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:02:52",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164724",
+          "text": "<p>manufacturers enter data but information is entered by the user&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164721",
+          "text": "<p>data is meaningful, information is meaningless</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164722",
+          "text": "<p>information is meaningful, data is meaningful</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164723",
+          "text": "<p>data is meaningless, information is meaningful</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41125",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the desktop icons stores files and programs deleted from the computer ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:04:35",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164726",
+          "text": "<p>my document&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164727",
+          "text": "<p>recycle bin</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164728",
+          "text": "<p>my network places</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164729",
+          "text": "<p>internet explorer</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41126",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>In computing , capital letters like ABC are known as ...........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:05:45",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164732",
+          "text": "<p>title case&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164733",
+          "text": "<p>toggle case&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164734",
+          "text": "<p>upper case&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164731",
+          "text": "<p>lower case&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41127",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>A computer device for controlling the movement of the mouse pointer is a ..........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:07:17",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164736",
+          "text": "<p>keyboard</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164737",
+          "text": "<p>screen saver&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164738",
+          "text": "<p>mouse&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164739",
+          "text": "<p>system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41128",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these is used to undo actions when typing ?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:10:38",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164743",
+          "text": "<p>CTRL + Z</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164744",
+          "text": "<p>CTRL + V</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164741",
+          "text": "<p>CTRL + C</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164742",
+          "text": "<p>CTRL + A</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41129",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The name given to the horizontal group of keys found on top of the home row keys is ..........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:14:57",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164746",
+          "text": "<p>top row keys&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164747",
+          "text": "<p>function keys&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164748",
+          "text": "<p>numerical keys&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164749",
+          "text": "<p>bottom row keys&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41130",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The computer system unit that stands vertically beside the monitor is called .........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:16:15",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164754",
+          "text": "<p>vertical system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164751",
+          "text": "<p>lower case system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164752",
+          "text": "<p>long top system unit&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164753",
+          "text": "<p>tower system unit&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "41131",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The systematic method used by the computer to change data into information is ...........</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-02-12 19:17:23",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "164756",
+          "text": "<p>programs&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164757",
+          "text": "<p>micro laptop</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "164758",
+          "text": "<p>process</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "164759",
+          "text": "<p>microcomputer&nbsp;</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65297",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>Adjusting the text with the page is known as ............................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:06:21",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285588",
+          "text": "<p>adorning</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285587",
+          "text": "<p>aligning</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285586",
+          "text": "<p>parameters</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285585",
+          "text": "<p>font size</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65298",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>The text alignment is done under three parameters that are&nbsp;</p>\n<p>i. left alignment, center alignment and right alignment</p>\n<p>ii. center alignment</p>\n<p>iii. right alignment</p>\n<p>iv. bold alignment</p>\n<p>&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:08:43",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285590",
+          "text": "<p>i, ii, and iv</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285591",
+          "text": "<p>i, ii, iii</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285592",
+          "text": "<p>iv, ii, iii</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285593",
+          "text": "<p>none of the above</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285594",
+          "text": "<p>*Answer Text*</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65299",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>Below is an example of a ....................... alignment.</p>\n<p style=\"text-align: center;\">the quick brown</p>\n<p style=\"text-align: center;\">fox jumps over</p>\n<p style=\"text-align: center;\">the lazy dog.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:10:31",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285595",
+          "text": "<p>left alignment</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285596",
+          "text": "<p>bold alignment</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285597",
+          "text": "<p>center alignment</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285598",
+          "text": "<p>right alignment</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65300",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>All the examples of the different types of align buttons are available in the .......................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:11:41",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285600",
+          "text": "<p>text bar</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285601",
+          "text": "<p>format bar</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285602",
+          "text": "<p>mouse bar</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285603",
+          "text": "<p>alignment bar</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65301",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>................. are symbols which are placed before text to add emphasis</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:13:06",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285605",
+          "text": "<p>inseerts</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285606",
+          "text": "<p>paragraphs</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285607",
+          "text": "<p>bullets</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285608",
+          "text": "<p>cursor</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65302",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>Paragraph setting helps in applying ........................... in the paragraph that is a spacing of fixed margin from left or right side.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:14:32",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285610",
+          "text": "<p>indents</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285611",
+          "text": "<p>incidents</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285612",
+          "text": "<p>intercents</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285613",
+          "text": "<p>intercess</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65303",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>Riddle riddle, i am a commmand. I help to put an external object or prepared data in the wordpad program. Who am i?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:15:49",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285615",
+          "text": "<p>cursor</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285616",
+          "text": "<p>bulleting</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285617",
+          "text": "<p>inserts</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285618",
+          "text": "<p>toolbar</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65304",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>For emphasizing some particular text from the passage we must select the text and apply styles to it</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:18:44",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285620",
+          "text": "<p>true</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285621",
+          "text": "<p>false</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65306",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>To save a new document click the SAVE icon&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:19:46",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285632",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285631",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65307",
+      "topic": "1374",
+      "instructions": "",
+      "text": "<p>To save an already existing existing document click the SAVE icon</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:21:13",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285637",
+          "text": "<p>true</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285636",
+          "text": "<p>false</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65309",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>..................... provides us all the information we want to know</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:24:13",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285645",
+          "text": "<p>home computer</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285646",
+          "text": "<p>sola energy</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285647",
+          "text": "<p>internet&nbsp;</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285648",
+          "text": "<p>telephone</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65311",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>Internet can be accessed with an Internet connection and ..................... like internet explorer.</p>\n<p>&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:25:33",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285655",
+          "text": "<p>web browseer application</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285656",
+          "text": "<p>web internet application</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285657",
+          "text": "<p>web browser conncection</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285658",
+          "text": "<p>web internet connection</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65312",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>.................................. is the master key to information</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:26:35",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285660",
+          "text": "<p>cable modem</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285661",
+          "text": "<p>router</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285662",
+          "text": "<p>broadline MTA</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285663",
+          "text": "<p>seach engine</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65313",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>Google is an example of ...............................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:27:27",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285665",
+          "text": "<p>search engine</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285666",
+          "text": "<p>broadline MTA</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285667",
+          "text": "<p>Cable modem</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285668",
+          "text": "<p>router</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65314",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>E-mail enables to write and send mesaages to eachother free of cost</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:28:31",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285670",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285671",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65315",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>Communication is not the primary use of the internet</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:29:19",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285677",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285676",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65316",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>Yahoo mail webpage is an example of E-mail</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:30:18",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285682",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285681",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65317",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>E-learning operating system, which provides knowledge through computer-based training programs.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:31:24",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285687",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285686",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65318",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>E-commence means selling and purchasing of goods like music player, camera, computer, through without using internet.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:32:34",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285692",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285691",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65319",
+      "topic": "1375",
+      "instructions": "",
+      "text": "<p>Books are sold on Internet through onliine form and making payment through credit cards</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:33:44",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285697",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285696",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65328",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The image on the Desktop screen can not be changed</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:52:19",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285740",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285741",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65329",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The image of the Desktop screen is known as Desktop Monitor</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:53:02",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285747",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285746",
+          "text": "<p>False</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65330",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>We can easily change this desktop background image according to our liking and mood.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:53:54",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285752",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285751",
+          "text": "<p>Mood</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65331",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The image on the Desktop screen helps decorate the computer</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:54:34",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285757",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285756",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65332",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>How do we get the shortcut menu?</p>\n<p>&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:55:50",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285762",
+          "text": "<p>By right clicking the mouse</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285761",
+          "text": "<p>By left clicking the mouse</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285760",
+          "text": "<p>By left clicking and dragging the mouse over the screen</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285763",
+          "text": "<p>By right clicking and dragging the mouse over the screen</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65333",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The display properties dialog box enables us to change the look and appearance of the computer screen.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:57:05",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285765",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285766",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65334",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The display properties dialogue can also be used to change the theme of the computer</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:57:53",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285772",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285771",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65335",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>The theme of the computer can also be known as the color of the title bar</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:58:36",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285777",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285776",
+          "text": "<p>false</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65336",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>In the Desktop tab various options are available for changing the background image.</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 10:59:26",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285782",
+          "text": "<p>True</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "285781",
+          "text": "<p>False</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65337",
+      "topic": "1377",
+      "instructions": "",
+      "text": "<p>Background which displays the various images available and browse which helps you to import more images are all found in the short cut menu</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 11:00:36",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "285787",
+          "text": "<p>True</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "285786",
+          "text": "<p>false</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    }
+  ],
+  "updated_at": "2014-12-05 03:42:13",
+  "nquestions": 50
+}

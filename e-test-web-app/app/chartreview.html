@@ -1,0 +1,528 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Chart Stats | E-test</title>
+
+    <meta name="Ecoach Solutions" content="">
+    <meta name="Benjamin A. Nkansah" content="">
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="css/dashboard.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+		<!-- font Awesome -->
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<!-- Ionicons -->
+		<link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+		<!-- jQuery UI -->
+		<link href="css/jQueryUI/jquery-ui-1.10.3.custom.css" rel="stylesheet" type="text/css" />
+		<!-- Theme style -->
+		<link href="css/AdminLTE.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet" type="text/css"/>
+	    <link rel="stylesheet" type="text/css" href="css/component.css" />
+	    <script src="js/modernizr.custom.js"></script>
+		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+		<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		
+		<script type="text/javascript">
+			google.load("visualization", "1", {
+				packages : ["corechart"]
+			});
+			google.setOnLoadCallback(drawChart);
+			function drawChart() {
+
+				var data = google.visualization.arrayToDataTable([['Task', 'label'], ['25 incorrect', 25], ['10 unattempted', 10], ['45 correct', 45]]);
+
+				var options = {
+					legend : 'none',
+					backgroundColor : 'transparent',
+					pieSliceText : 'label',
+					title : '',
+					slices : {
+						0 : {
+							color : '#FF0000'
+						},
+						1 : {
+							color : '#B2B2B2'
+						},
+						2 : {
+							color : '#A6C075'
+						},
+					}
+				};
+
+				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background:#FAAF3F">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<table>
+			            <tr>
+			              <td>
+			                <a class="navbar-brand" href="subjectoptionsdash.html">
+			                  <img src="images/back-arrow.png"/>
+			                </a>
+			              </td>
+			              <td style="padding-top:5px; padding-left:15px">
+			                <a href="main.html">
+			                  <img src="images/logo-navbar.png"/>
+			                </a>
+			              </td>
+							<td style="padding-top:15px">
+								<div id="sb-search" class="sb-search" style="margin-left:990px;">
+		                        	<form>
+			                            <input class="sb-search-input" placeholder="Search for question text or question id" type="text" value="" name="search" id="search">
+			                            <input class="sb-search-submit" type="submit" value="">
+		                            	<span class="sb-icon-search"></span>
+		                        	</form>            
+            					</div>
+            				</td>
+			            </tr>
+			        </table>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<!-- User Account: style can be found in dropdown.less -->
+						<li class="user user-menu">
+							<a href="#" class="" data-toggle="dropdown"> <i class="fa fa-user"></i> <span>Victor<i class="caret"></i></span> </a>
+							<ul id="dropdown-menu" class="dropdown-menu" style="width:600%; height:800%">
+								<!-- User image -->
+								<li class="user-header bg-light-blue">
+									<img src="images/profile_image.png" class="img-circle" alt="User Image" />
+									<p>
+										Username - Level
+										<small>
+											Gender - Male
+										</small>
+									</p>
+								</li>
+								<!-- Menu Body -->
+								<div class="main">
+					                <ul id="myTab" class="nav nav-tabs">
+					                  <li class="active" align="center">
+					                    <a href="#Profile" data-toggle="tab" style="width:195px; color: #000;"><span class="glyphicon glyphicon-user"></span> Profile</a>
+					                  </li>
+					                  <li align="center">
+					                    <a href="#Account" data-toggle="tab" style="width:165px; color: #000;"><span class="glyphicon glyphicon-list-alt"></span> Account</a>
+					                  </li>
+					                  <li align="center">
+					                    <a href="#Statistics" data-toggle="tab" style="width:169px; color: #000;"><span class="glyphicon glyphicon-stats"></span> Statistics</a>
+					                  </li>
+					                </ul>
+					                <!-- Menu Footer-->
+					                
+					                  <div class="tab-content">
+					                    <div class="tab-pane fade in active" id="Profile">
+					                    	<div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Telephone :</td><td> +23326683880</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>School :</td><td> Presec-Legon</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Residence :</td><td> Ashongman</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Country :</td><td> Ghana</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Level :</td><td> Senior High School</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Date of Birth : </td><td> March 18, 1989</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      </table>	
+					                  </div>
+					                  <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="#" class="btn edit" type="button" style="margin-top:10px; margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-edit"></span> Edit Profile</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+					                      	</tr>
+					                      	
+					                      </table>	
+					                  </div>
+					                    </div>
+					                    <div class="tab-pane fade in" id="Account">
+					                      <div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Username :</td><td> victoradatsi</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Referral Code :</td><td> EC2270Em</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Country :</td><td> Ghana</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Level :</td><td> Senior High School</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>Date of Birth : </td><td> March 18, 1989</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      </table>
+					                    </div>
+					                  <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="#" class="btn editaccount" type="button" style="margin-top:10px; margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-edit"></span> Edit Account</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 25px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+					                      	</tr>
+					                      	
+					                      </table>	
+					                  </div>
+					              </div>
+					                    <div class="tab-pane fade in" id="Statistics">
+					                      <div class="col-md-7" style="margin-top:0%;margin-left:0%; font-size:12px">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>eTest: Logins </td><td> 234</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>eTest: Tests taken</td><td> 21</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>eTest: Average Score</td><td> 17.74%</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>E-Coach: Referrals</td><td> 0</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>E-Coach: Last Login </td><td> 09/09/2014</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td>E-Coach: Site Logins </td><td> 145</td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><img src="images/line.png"></td>
+					                      	</tr>
+					                      </table>
+					                    </div>
+					                  <div class="col-md-4" style="margin-top:2%;margin-left:5%;">
+					                      <table>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="#" class="btn edit" type="button" style="margin-top:5px; margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">Edit Profile</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="#" class="btn editaccount" type="button" style="margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-edit"></span> Edit Account</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="help.html" class="btn" type="button" style="margin-bottom: 15px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-question-sign"></span> Help</a></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"></td>
+					                      	</tr>
+					                      	<tr>
+					                      		<td colspan="2"><a href="logoutsplash.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:15px; border-color:#4C4C4C; color:#4C4C4C; background: #fff">
+					                      			<span class="glyphicon glyphicon-log-out"></span> Logout</a></td>
+					                      	</tr>
+					                      	
+					                      </table>	
+					                  </div>
+					                    </div>
+					                  </div>
+
+					            </div>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="top-head-bg">
+			<h1 style="margin-left:5%; margin-top:5px">Science</h1>
+		</div>
+		<div>
+			<table align="center" style="margin-top:6%;">
+				<th><h2 style="margin-left:50%; color:#F7921E;">Results</h2></th>
+				<th><h2 style=" margin-top:15px; margin-left:700px; width:450px; color:#F6921D" >Time Spent: 20min: 45sec</h2></th>
+
+			</table>
+			<img src="images/div-mage.jpg"/>
+
+			<center>
+				<div id="piechart" style="width: 850px; height: 450px;"></div>
+			</center>
+			<table align="center" style="margin-bottom:2%;">
+				<tr>
+					<td style="font-size: 20px"><b>Total:&nbsp;</b></td><td style="color: #00A99D; font-size: 20px">45&nbsp;</td><td style="font-size: 20px">/&nbsp;</td><td style="font-size: 20px">80</td>
+				</tr>
+			</table>
+			<ul class="sharing-buttons">
+				<li>
+					<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/ecoach.solutions" style="margin-right: 2%">Share on Facebook</a></li>
+			</ul>
+
+			<table align="center" style="margin-top:12px">
+				<th><a href="qtnreview.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:0px;  color:#fff; background: #F8A230">Review</a></font></th>
+				<th style="padding-left:250px"><a href="main.html" class="btn" type="button" style="margin-bottom: 5px; width: 123px; height: 38px; border-color:transparent; border-radius:0px;  color: #fff; background: #21B472">New test</a></th>
+			</table>
+		</div>
+<!-- Modal for Edit Profile -->
+    <div class="modal fade" id="basicModaltwo" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background:#FAAF3F">
+                <div class="modal-header">
+                <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Profile</h2>
+                    
+                </div>
+                <div class="modal-body col-md-5">
+                    
+                   <center><img src="images/profile_image.png" alt="" class="btn"></center>
+                </div>
+                <div class="modal-body col-md-5" style="margin-top:5%">                    
+                    <h4 style="color:#656565">First Name:  Victor Adatsi</h4>
+                    <h4 style="color:#656565">Last Name: Male</h4>                                   
+                    <h4 style="color:#656565">Gender:  Ashongman</h4>
+                    <h4 style="color:#656565">Telephone: Ghana</h4>
+                    <a type="button" data-toggle="modal" data-dismiss="modal" data-target="#EditbasicModaltwo" class="btn editnext next_button">Next<i class="fa fa-chevron-right"></i></a>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+ <!-- Modal for next Edit Profile -->
+<div class="modal fade" id="EditbasicModaltwo" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background:#FAAF3F">
+            <div class="modal-header">
+            <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Profile</h2>
+                
+            </div>
+            <div class="modal-body col-md-5">
+                
+               <center><img src="images/profile_image.png" alt="" class="btn"></center>
+               <center><a type="button" class="btn previous_button"><i class="fa fa-floppy-o"></i>Save</a></center>               
+               <center><a type="button" data-toggle="modal" data-dismiss="modal" data-target="#basicModaltwo" class="btn edit previous_button" style="background-color:red"><i class="fa fa-chevron-left"></i>previous</a></center>
+            </div>
+            <div class="modal-body col-md-5" style="margin-top:5%">             
+                <h4 style="color:#656565">School:  Senior High School</h4>
+                <h4 style="color:#656565">Area of Residence: Ashongman</h4>
+                <h4 style="color:#656565">Country: Ghana</h4>                   
+                <h4 style="color:#656565">Level:  Senior High School</h4>
+                <h4 style="color:#656565">Date of Birth: 6/March/1957</h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Edit User -->
+<div class="modal fade" id="basicModalthree" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="background:#FAAF3F">
+            <div class="modal-header">
+            <h2 class="modal-title" id="myModalLabel" style="color:#656565" align="center">Edit Account</h2>
+                
+            </div>
+            <div class="modal-body col-md-5">
+                
+               <center><img src="images/profile_image.png" alt=""></center>
+                <h4 align="center" style="color:#656565">Name:  Victor Adatsi</h4>
+                <h4 align="center" style="color:#656565">Gender: Male</h4>
+               <center><a type="button" class="btn previous_button"><i class="fa fa-floppy-o"></i>Save</a></center>
+            </div>
+            <div class="modal-body col-md-5" style="margin-top:5%">                    
+                <h4 style="color:#656565">Telephone:  Victor Adatsi</h4>
+                <h4 style="color:#656565">School: Male</h4>                                   
+                <h4 style="color:#656565">Residece:  Ashongman</h4>
+                <h4 style="color:#656565">Country: Ghana</h4>                   
+                <h4 style="color:#656565">level:  Senior High School</h4>
+                <h4 style="color:#656565">Date Of Birth: 6/March/1957</h4>
+            </div>
+
+            <div class="modal-footer">
+                <a href="#" type="button" data-dismiss="modal" style="color:#656565"><i class="fa fa-times-circle-o fa-2x"></i></a>
+        </div>
+    </div>
+  </div>
+</div>
+		</div><!-- /.container -->
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/docs.min.js"></script>
+
+    	<script type="text/javascript">
+	    $('.tab-content, .btn, .user-header, .dropdown-menu a[data-toggle="tab"]').click(function(e) {
+	          e.stopPropagation();
+	          $(this).tab('show')
+	    });
+	    </script>
+		<script type="text/javascript">
+			$('.edit').click(function(e) {
+			$('#EditbasicModaltwo').modal('hide');
+			$('#basicModaltwo').modal('show');
+			});
+		</script>
+		<script type="text/javascript">
+			$('.editnext').click(function(e) {
+			$('#basicModaltwo').modal('hide');
+			$('#EditbasicModaltwo').modal('show');
+			});
+		</script>
+    <script type="text/javascript">
+      $('.editaccount').click(function(e) {
+      $('#basicModalthree').modal('show');
+      });
+    </script>
+
+
+		<script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
+   
+        <script src="js/classie.js"></script>
+        <script src="js/uisearch.js"></script>
+        <script>
+            new UISearch( document.getElementById( 'sb-search' ) );
+        </script>
+	</body>
+</html>

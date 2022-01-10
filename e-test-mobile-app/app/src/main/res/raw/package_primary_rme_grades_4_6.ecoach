@@ -1,0 +1,1066 @@
+{
+  "name": "PRIMARY RME (GRADES 4 - 6)",
+  "course_id": "86",
+  "courseID": "01PU22",
+  "package_code": "PRIMARY",
+  "description": "",
+  "category": "",
+  "author": "content@ecoachsolutions.com",
+  "topics": [],
+  "topicbanks": [],
+  "quizzes": [
+    {
+      "name": "TESTS",
+      "author": "content@ecoachsolutions.com",
+      "time": "0",
+      "description": "",
+      "category": "",
+      "type": "BANK",
+      "instructions": "",
+      "questions": [
+        "65426",
+        "65427",
+        "65428",
+        "65429",
+        "65430",
+        "65431",
+        "65432",
+        "65433",
+        "65434",
+        "65435",
+        "65437",
+        "65438",
+        "65439",
+        "65440",
+        "65441",
+        "65442",
+        "65443",
+        "65444",
+        "65445",
+        "65447",
+        "65448",
+        "65449",
+        "65450",
+        "65451",
+        "65452",
+        "65453",
+        "65454",
+        "65455",
+        "65456",
+        "65457",
+        "65458"
+      ],
+      "confirmed": "1",
+      "public": "1"
+    }
+  ],
+  "questions": [
+    {
+      "qid": "65426",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What is the meaning of Adam?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:41:40",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286232",
+          "text": "<p>first man</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286231",
+          "text": "<p>man taken from the earth</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286230",
+          "text": "<p>man for people</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65427",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Who was the first woman God created?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:42:28",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286236",
+          "text": "<p>Adam</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286235",
+          "text": "<p>Eve</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286237",
+          "text": "<p>Mary</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65428",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What did God use to create Eve?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:43:21",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286241",
+          "text": "<p>dust</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286240",
+          "text": "<p>rib</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286242",
+          "text": "<p>fire</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65429",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these statement is not true?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:44:50",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286246",
+          "text": "<p>The environment refers to all the things we see around us</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286245",
+          "text": "<p>The environment is made up of both natural and artificial things</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286247",
+          "text": "<p>Mankind is not part of the environment</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65430",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What is afforestation?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:46:07",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286251",
+          "text": "<p>plainting new plants to replace lost ones</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286250",
+          "text": "<p>planting of old plants to replace lost ones</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286252",
+          "text": "<p>burning of plants</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65431",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The names used to call God as a result of the wonderful things He does are known as .........................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:47:48",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286256",
+          "text": "<p>the attributes of God</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286255",
+          "text": "<p>The wonders of God</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286257",
+          "text": "<p>The powers of God</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65432",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The connection that exists between two or more people is known as ..............................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:49:09",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286261",
+          "text": "<p>cordial</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286260",
+          "text": "<p>relationship</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286262",
+          "text": "<p>family</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65433",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The relationship that exists between parent and child is known as .........................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:51:47",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286266",
+          "text": "<p>formal relationship</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286265",
+          "text": "<p>informal relationship</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286267",
+          "text": "<p>guided relationship</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65434",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these statements is true about cordial relationship?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:54:44",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286271",
+          "text": "<p>cordial relationship means having warm and unfriendly connections with people</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286270",
+          "text": "<p>cordial relationship means having cold and friendly connections with people</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286272",
+          "text": "<p>cordial relationships means having warm and friendly connections with people</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65435",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What can we start a cordial relationship with?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:55:54",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286276",
+          "text": "<p>greetings</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286275",
+          "text": "<p>shouting</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286277",
+          "text": "<p>visitations</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65437",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Saying bad things against one another brings about ..........................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:57:34",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286286",
+          "text": "<p>healthy relationship</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286285",
+          "text": "<p>unhealthy relationship</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65438",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Healthy relationship is the same as ......................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 13:58:55",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286292",
+          "text": "<p>cordial relationship</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286291",
+          "text": "<p>unhealthy relationship</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65439",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>He who disrespects people .............................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:00:04",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286297",
+          "text": "<p>makes cordial relationship with them</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286296",
+          "text": "<p>makes unhealthy relationship with them</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286295",
+          "text": "<p>is loved by everybody</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65440",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>How many regions do we have in Ghana?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:01:19",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286301",
+          "text": "<p>9</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286300",
+          "text": "<p>10</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286302",
+          "text": "<p>11</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65441",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these groups of people are found in the volta region?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:02:20",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286306",
+          "text": "<p>Gas</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286305",
+          "text": "<p>Kokombas</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286307",
+          "text": "<p>Anlos</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65442",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>A group of persons with a common language, culture and chief is known as ...................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:03:33",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286311",
+          "text": "<p>Akan group</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286310",
+          "text": "<p>Ethnic group</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286312",
+          "text": "<p>Region group</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65443",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Right goes with .....................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:04:40",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286316",
+          "text": "<p>responsibility</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286315",
+          "text": "<p>actions</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286317",
+          "text": "<p>irresponsibility</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65444",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Who is a religious leader?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:05:52",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286321",
+          "text": "<p>Any person who has founded a religion</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286320",
+          "text": "<p>A person who has founded a church</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65445",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Whoo is the founder of Sikhism?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:06:58",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286327",
+          "text": "<p>Jesus</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286326",
+          "text": "<p>Nanak</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286325",
+          "text": "<p>Budda</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65447",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>................... is the founder of Jainism</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:08:52",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286336",
+          "text": "<p>Lao Tzu</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286335",
+          "text": "<p>Mahavira</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286337",
+          "text": "<p>Moses</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65448",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these religions originated from Palestine?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:10:08",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286343",
+          "text": "<p>Islam</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286342",
+          "text": "<p>Christianity</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286341",
+          "text": "<p>Shintoism</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65449",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Did Moses establish a &nbsp;religion?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:11:40",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286346",
+          "text": "<p>Yes</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286345",
+          "text": "<p>No</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286347",
+          "text": "<p>None</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65450",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What is the name of the angel who visited Zachariah and the virgin Mary?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:12:51",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286351",
+          "text": "<p>Michael</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286350",
+          "text": "<p>Gabriel</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286352",
+          "text": "<p>Azrafil</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65451",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Where did virgin Mary live?</p>\n<p>&nbsp;</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:14:03",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286356",
+          "text": "<p>Nazareth</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286355",
+          "text": "<p>Bethlehem</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286357",
+          "text": "<p>Jerusalem</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65452",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>What is the name of the cave in which Mohammed received his call?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:15:18",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286361",
+          "text": "<p>Hira</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286360",
+          "text": "<p>Desert</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286362",
+          "text": "<p>Quoraysh</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65453",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>In what year did Mohammed migrate from Mecca to Medina?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:16:49",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286366",
+          "text": "<p>571 AD</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286365",
+          "text": "<p>632 AD</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286367",
+          "text": "<p>628 AD</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65454",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>The occasion through which people get together to remember memorable event that have happened in the past is known as .......................</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:18:20",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286371",
+          "text": "<p>Festival</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286370",
+          "text": "<p>Gatherings</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286372",
+          "text": "<p>Durbar</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65455",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these is an African traditional festival?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:19:49",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286376",
+          "text": "<p>Kundum</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286375",
+          "text": "<p>Id-ul-fitr</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286377",
+          "text": "<p>Easter</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65456",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>....................... is a Christian festival</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:20:55",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286381",
+          "text": "<p>Christmas</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286380",
+          "text": "<p>Glidzi</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286382",
+          "text": "<p>Bilabi-Nabi</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65457",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of the following is not an Islamic festival?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:22:16",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286386",
+          "text": "<p>Ramadan</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286385",
+          "text": "<p>Id-ul-Adar</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286387",
+          "text": "<p>Hogbetsotso</p>",
+          "value": "1",
+          "solution": ""
+        }
+      ]
+    },
+    {
+      "qid": "65458",
+      "topic": "0",
+      "instructions": "",
+      "text": "<p>Which of these people celaebate Bakatue?</p>",
+      "resource": "",
+      "qtype": "SINGLE",
+      "confirmed": "1",
+      "public": "1",
+      "flagged": "0",
+      "updated_at": "2014-08-06 14:23:54",
+      "rating": 0,
+      "answers": [
+        {
+          "id": "286391",
+          "text": "<p>Ewe</p>",
+          "value": "0",
+          "solution": ""
+        },
+        {
+          "id": "286390",
+          "text": "<p>Elmina (Edina)</p>",
+          "value": "1",
+          "solution": ""
+        },
+        {
+          "id": "286392",
+          "text": "<p>Nzema</p>",
+          "value": "0",
+          "solution": ""
+        }
+      ]
+    }
+  ],
+  "updated_at": "2014-12-05 03:42:13",
+  "nquestions": 31
+}

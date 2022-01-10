@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/helphead"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Economics"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#fff"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvhdpq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:text="Past Questions"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#EF383F" />
+
+            <Button
+                android:id="@+id/btn_instructions"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btninstructions"
+                android:text="INSTRUCTIONS"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/tvyr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:text="WASSCE 1993"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#BFBFBF" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/start_btn"
+            android:text="START"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvSccience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvyr"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="5dp"
+            android:text="80 Questions"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#E2E2E2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvSccience"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tvSccience"
+            android:text="2 Attempts"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#E2E2E2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:src="@drawable/line" />
+
+    </RelativeLayout>
+</ScrollView>
